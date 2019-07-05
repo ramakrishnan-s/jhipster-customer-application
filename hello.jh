@@ -1,0 +1,27 @@
+
+
+
+/**
+ * The Customer entity.
+ */
+entity Customer {
+	/**
+	* The firstname attribute.
+	*/
+	firstName String,
+	lastName String,
+	email String,
+	phoneNumber String
+	
+}
+
+entity Service {
+	/**
+	* The service attribute.
+	*/
+	serviceType String,
+	serviceName String,
+	servcieId   String
+	
+	
+}
